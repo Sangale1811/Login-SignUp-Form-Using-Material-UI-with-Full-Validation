@@ -1,0 +1,22 @@
+.login {
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+body{
+  background-image: url('./Images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: auto 150vh;
+    background-position: center; 
+  }
+
+  .login{
+    margin-top: 80px;
+  }
+}
